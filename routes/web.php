@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOME PAGE
 Route::get('/', function () {
-    return view('welcome');
+    $posts = DB::table('posts')->get();
+    return view('index')->with('posts', $posts);
+});
+
+// CONTACT PAGE
+Route::get('/contact', function(){
+    return view('contact');
+});
+
+// ABOUT PAGE
+Route::get('/about', function(){
+    return view('about');
 });
