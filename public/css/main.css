@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #2d2d2d;
+    text-align: center;
+}
+
+.footer img {
+    width: 300px;
+    padding: 50px 0;
+}
+
+/* ABOUT US PAGE */
+
+.about-wrapper, .contact-wrapper { 
+    height: 400px;
+}
+
+.about-wrapper h1, .contact-wrapper h1 { 
+    text-align: center;
+    padding: 100px 0 20px 0;
+}
+
+.about-wrapper p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-wrapper p {
+    text-align: center;
+}
