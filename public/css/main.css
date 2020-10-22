@@ -14,6 +14,24 @@ body {
     padding: 50px 0;
 }
 
+/* HOME PAGE */
+.home-wrapper .row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  .home-wrapper .row {
+    width: 100%;
+}
+
+}
+
+
 /* ABOUT US PAGE */
 
 .about-wrapper, .contact-wrapper { 
